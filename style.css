@@ -1,33 +1,93 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
-
-li {
-    display: inline-block;
-    text-align: justify;
-    padding: 5px;
+.newspaper-conlainer {
+    width: 2000px;
+    margin: 3em auto;
+    padding: 1em;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 5px #ddd;
 }
 
-ul {
-    text-align: center;
+nav {
+    border-top: 1px sold #eee;
+    border-bottom: 1px sold #eee;
+    padding: 5px 0;
+    margin: 1em 0;
+    position: sticky;
+    top: 0;
+    background: white;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 0.5em;
+}
+
+nav a {
+    font-size: 0.8em;
+    color: #777
+}
+
+body {
+    background: #eee;
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
 }
 
 a {
     text-decoration: none;
-    color: gray;
 }
 
-body {
-    background-color: gray;
+p {
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 0 10px;
 }
 
-.newspaper-conlainer {
-    background-color: white;
-    border-radius: 1%;
-    margin: 30px;
-    padding: 20px;
-    box-shadow: 2px 2px 5px;
+main h2 {
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
 }
 
-h1 {
+main h5 {
+    font-family: 'Abril Fatface', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    color #dd3232;
+    margin-top: 0.5em;
+}
+
+main img {
+    width: 100%;
+}
+
+.more-articles {
+    border-top: 1px solid #eee;
+}
+
+.more-articles section {
+    display: inline-block;
+    width: 44%
+    margin 0 1em;
+}
+
+.more-articles img {
+    width: 100%;
+}
+
+.more-articles h4 {
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.date {
+    font-size: 0.8em;
+}
+
+header h1 {
     font-family: fantasy;
+    margin: 0;
+    font-size: 2.5em;
     text-align: center;
 }
